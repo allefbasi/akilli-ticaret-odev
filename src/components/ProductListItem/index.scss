@@ -1,0 +1,40 @@
+@import "../../App.scss";
+
+.product-image {
+  height: 300px;
+  object-fit: contain;
+}
+
+.icon-white {
+  color: #ffffff;
+}
+
+.icon-black {
+  color: black;
+}
+
+.icon-div {
+  &:hover{
+    background-color: $primary;
+    color:white;
+  }
+}
+
+.top-container {
+  height: 64px;
+}
+
+.mid-container {
+  height: 56px;
+}
+
+.bottom-container {
+  height: 56px;
+}
+
+.product-name {
+  display: block;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+}

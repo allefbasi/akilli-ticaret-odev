@@ -1,0 +1,37 @@
+$primary: #ff0000;
+$secondary: #ffff;
+$light: #fbfbfb;
+$dark: #f4f4f4;
+
+$pagination-active-bg: $primary;
+$grid-gutter-width: 0.5rem;
+$offcanvas-bg-color: $primary;
+$navbar-toggler-icon-bg-color:white;
+$breadcrumb-divider : quote(">");
+$breadcrumb-margin-bottom: 0;
+$pagination-active-bg: $primary;
+
+//
+//$theme-colors: (
+//        "primary":    red,
+//        "secondary":  white,
+//        "success":    blue,
+//        "info":       blue,
+//        "warning":    blue,
+//        "danger":     blue,
+//        "light":      blue,
+//        "dark":       blue
+//);
+
+@import "~bootstrap/scss/bootstrap";
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color:black;
+}
+
+
+
+
+
+
