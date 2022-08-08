@@ -28,7 +28,7 @@ export function Header() {
             <Container fluid>
                 <Row className={'bg-light'}>
                     <Col>
-                        <Stack className={'header-stack px-4'} direction={'horizontal'} gap={4}>
+                        <Stack className={'header-stack px-4'} direction={'horizontal'} gap={{xs: 1, md: 2, lg: 4}}>
                             <button className={'bg-light border-0'}>
                                 <Facebook color={iconColor}/>
                             </button>

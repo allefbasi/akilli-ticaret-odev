@@ -125,7 +125,7 @@ export async function getProducts(page) {
     if (products.length === 0) {
         products = await callGetProductApi(0);
     }
-    console.log({products})
+
     return {
         productList: products.slice(page * 4, page * 4 + 4),
         listLength: products.length,
@@ -141,9 +141,6 @@ function signIn() {
         }
     ).then((res) => res.json())
         .then((res) => {
-            console.log(res)
             return res.data.token;
         })
 }
-
-
