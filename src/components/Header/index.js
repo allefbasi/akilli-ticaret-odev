@@ -51,7 +51,7 @@ export function Header() {
                         <Shop size={36} className={'me-3 text-primary'}/>
                         <h2 className={'text-primary m-0'}>KARMA</h2>
                     </Col>
-                    <Col md={5} xs={10} className={'d-flex justify-content-center ps-md-3 align-items-center py-3'}>
+                    <Col md={5} xs={9} className={'d-flex justify-content-center ps-md-3 align-items-center py-3'}>
                         <input placeholder={'Ne aramıştınız?'} type={'search'}
                                className={'bg-light border border-dark flex-grow-1 h-100 py-2 ps-3'}/>
                         <button className={'h-100 border border-dark bg-primary py-1 px-3'}>
