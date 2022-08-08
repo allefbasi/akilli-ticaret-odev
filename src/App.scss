@@ -11,18 +11,6 @@ $breadcrumb-divider : quote(">");
 $breadcrumb-margin-bottom: 0;
 $pagination-active-bg: $primary;
 
-//
-//$theme-colors: (
-//        "primary":    red,
-//        "secondary":  white,
-//        "success":    blue,
-//        "info":       blue,
-//        "warning":    blue,
-//        "danger":     blue,
-//        "light":      blue,
-//        "dark":       blue
-//);
-
 @import "~bootstrap/scss/bootstrap";
 
 .breadcrumb-item a {
@@ -30,8 +18,10 @@ $pagination-active-bg: $primary;
   color:black;
 }
 
+input {
+  border-radius: 0;
+}
 
-
-
-
-
+input[type="search"] {
+  -webkit-appearance: none;
+}
